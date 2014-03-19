@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_US]=python
+Name[en_US]=clear ram
+Exec=sudo sysctl -w vm.drop_caches=3 && sudo sync && echo 3 && sudo tee /proc/sys/vm/drop_caches
+Name=EasyShare
+Icon=python
